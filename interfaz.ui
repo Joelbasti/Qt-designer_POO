@@ -426,7 +426,7 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Sistema de Administración de Persona</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="lblNombre">
@@ -511,8 +511,8 @@
    <widget class="QPushButton" name="btnAccion">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>160</y>
+      <x>270</x>
+      <y>190</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -610,6 +610,44 @@
     </property>
     <property name="text">
      <string>Guardar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCedula">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>Cedula:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="TxTCedula">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>411</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
     </property>
    </widget>
   </widget>
