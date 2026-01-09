@@ -1,7 +1,8 @@
 
 from PySide6.QtWidgets import QMainWindow
 
-from UI.vtnPrincipal import Ui_vtnPrincipal
+from UI.interfaz import Ui_vtnPrincipal
+
 
 class PersonaServicio(QMainWindow):
     '''
