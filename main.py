@@ -6,4 +6,4 @@ from Servicios.persona import PersonaServicio
 app = QApplication()
 vtn_principal = PersonaServicio()
 vtn_principal.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
