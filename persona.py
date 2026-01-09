@@ -1,6 +1,7 @@
-from PySide6 import QtGui
+
 from PySide6.QtWidgets import QMainWindow
 
+from UI.vtnPrincipal import Ui_vtnPrincipal
 
 class PersonaServicio(QMainWindow):
     '''
@@ -8,4 +9,5 @@ class PersonaServicio(QMainWindow):
     '''
     def __init__(self):
         super(PersonaServicio, self).__init__()
-
+        self.ui = Ui_vtnPrincipal()
+        self.ui.setupUi(self)
