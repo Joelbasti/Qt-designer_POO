@@ -157,4 +157,3 @@ class Ui_vtnPrincipal(object):
         self.btnAccion.setText(QCoreApplication.translate("vtnPrincipal", u"Guardar", None))
         self.lblCedula.setText(QCoreApplication.translate("vtnPrincipal", u"Cedula:", None))
     # retranslateUi
-
